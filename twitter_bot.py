@@ -22,3 +22,4 @@ while True:
     with open('idfile.txt','r+') as file:
                 lastTweetId = file.readlines()
                 retweeting(lastTweetId[0].strip('\n'))
+                time.sleep(5)
