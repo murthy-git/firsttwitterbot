@@ -1,4 +1,4 @@
-consumerKey = ''
-consumerSecretKey = ''
-accessToken = ''
-accessTokenSecret = ''
+consumerKey = 'Tc4s1PoVZYxJCljkdQigWmOJM'
+consumerSecretKey = 'CJCJSLW9Js4xea7Mdj0ry9QZYsrhRTBqd4bWfESKuQ4u8D5uaR'
+accessToken = '1062358177843314688-BeUX8umonBadgPbeLcgkh0SWHrKn5f'
+accessTokenSecret = 'gTGtjHUQjBKAMCndQCqB487yNG1g1pTHTgw3m8VPHprNq'
