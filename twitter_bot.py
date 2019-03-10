@@ -18,8 +18,10 @@ def retweeting(since_id):
         file.truncate(0)
         file.seek(0)
         file.writelines(str(tweet.id))
-while True:
-    with open('idfile.txt','r+') as file:
-                lastTweetId = file.readlines()
-                retweeting(lastTweetId[0].strip('\n'))
-                time.sleep(5)
+        
+if __name__ == '__main__':
+    while True:
+        with open('idfile.txt','r+') as file:
+                    lastTweetId = file.readlines()
+                    retweeting(lastTweetId[0].strip('\n'))
+                    time.sleep(5)
